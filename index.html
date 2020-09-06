@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content=" bmi calculator, heart problems, health" name="keywords">
+  <meta content="Bmi calculator to check health condition" name="description">
+  <title>BMI Calculator</title>
+  <!-- bootstrsap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="title">
+    <h1>BMI Calculator</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+
+      <section id="bmi-calc" class="col-lg-4 col-md-6">
+        <form id="bmi">
+          <h4> Weight :</h4>
+          <input class="calculations" type="text" name="weight"> kgs <br>
+          <h4>Height :</h4>
+          <input class="calculations" type="text" name="height" size="10"> cms<br>
+          <h4>BMI:</h4>
+          <input class="calculations" type="text" id="dopeBMI" readonly><br />
+          <input type="submit" id="calculateBMI" name="verify" value="Check Out">
+        </form>
+      </section>
+
+
+      <section id="values">
+        <div id="uw" class="cure underweight">
+          <h2>Gain Weight</h2>
+          <ol>
+            <li>
+              <span>Add healthy calories.</span> You don’t need to drastically change your diet.
+            </li>
+            <li>
+              <span>Go nutrient dense.</span> Instead of eating empty calories and junk food, eat foods that are rich in nutrients.
+            </li>
+            <li>
+              <span>Snack away.</span> Enjoy snacks that contain plenty of protein and healthy carbohydrates
+            </li>
+            <li>
+              <span>Eat mini meals.</span> If you’re struggling with a poor appetite, due to medical or emotional issues, eating large amounts of food may not seem appealing.
+            </li>
+            <li>
+              <span>Bulk up.</span> While too much aerobic exercise will burn calories and work against your weight goal, strength training can help
+            </li>
+          </ol>
+
+        </div>
+
+
+        <div id="health" class="cure healthy">
+          <h2>Congratulations! Your are healthy</h2>
+          <h4>Still follow the suggestions</h4>
+          <ol>
+            <li>
+              Do keep track of your eating habits.
+            </li>
+            <li>
+              Do drink plenty of water.
+            </li>
+            <li>
+              Do make healthy food choices.
+            </li>
+            <li>
+              Don’t skip meals.
+            </li>
+          </ol>
+        </div>
+
+
+        <div id="ow" class="cure overweight">
+          <h2>Need To Lose Weight</h2>
+          <ol>
+            <li>
+              Set Workout Targets So You’re More Likely to Stay on Track
+            </li>
+            <li>
+              Clean Up Your Eats to Make Sure Your Diet Is Working for You
+            </li>
+            <li>
+              You have to restrict calories, but while you’re doing that you want to maximize nutrition
+            </li>
+            <li>
+              Drink lots of water.
+            </li>
+          </ol>
+        </div>
+
+
+        <div id="obese" class="cure obese">
+          <h2>Danger!You Need To Lots of Weight</h2>
+          <ol>
+            <li>
+              <span>Exercise regularly.</span> You need to get 150 to 300 minutes of moderate-intensity activity a week to prevent weight gain
+            </li>
+            <li>
+              <span>Follow a healthy-eating plan.</span> Focus on low-calorie, nutrient-dense foods, such as fruits, vegetables and whole grains.
+            </li>
+            <li>
+              <span>Know and avoid the food traps that cause you to eat.</span> Identify situations that trigger out-of-control eating.
+            </li>
+            <li>
+              <span>Monitor your weight regularly.</span> People who weigh themselves at least once a week are more successful in keeping off excess pounds.
+            </li>
+            <li>
+              <span>Be consistent.</span> Sticking to your healthy-weight plan during the week, on the weekends, and amidst vacation
+            </li>
+          </ol>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+  <script src="main.js" rel='javaScript'></script>
+</body>

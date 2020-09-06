@@ -1,0 +1,91 @@
+body {
+  background: #0b9e9e;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  font-size: 7rem;
+  color: #fff;
+}
+
+#bmi-calc {
+  display: inline-block;
+  margin: 5%;
+  background: coral;
+  padding: 4%;
+  border: solid;
+  box-shadow: 6px 6px 23px 8px black;
+}
+
+#values {
+  display: inline-block;
+}
+
+h4 {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.cure {
+  position: absolute;
+  width: 54%;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5% auto 0;
+  box-shadow: 8px 8px 27px 9px black;
+}
+
+.underweight {
+  visibility: hidden;
+  background: #f95d5d;
+}
+
+.obese {
+  visibility: hidden;
+  background: #f95d5d;
+}
+
+.overweight {
+  visibility: hidden;
+  background: #fcff31;
+}
+
+.healthy {
+  visibility: hidden;
+  background: #5df969;
+}
+
+.visible {
+  visibility: visible;
+}
+
+@media screen and (max-width:1000px) {
+  section {
+    display: block;
+  }
+
+  .cure {
+    width: 38%;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  section {
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .cure {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    margin: 5% auto 26px;
+  }
+}
